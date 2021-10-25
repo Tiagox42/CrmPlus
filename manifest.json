@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Crm Plus",
+    "description": "Extensão CRM Plus",
+    "author": "Tiago Dantas",
+    "background": {
+        "service_worker": "alteracoes.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }

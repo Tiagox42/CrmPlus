@@ -4,10 +4,11 @@
     "name": "Crm Plus",
     "description": "Extensão CRM Plus",
     "author": "Tiago Dantas",
-    "background": {
-        "service_worker": "alteracoes.js"
-    },
-    "permissions": ["storage"],
+    "permissions": [
+        "storage",
+        "activeTab", 
+        "scripting"
+    ],
     "action": {
         "default_popup": "index.html",
         "default_icon": "icon.png"
@@ -17,5 +18,17 @@
         "32": "icon.png",
         "48": "icon.png",
         "128": "icon.png"
-      }
+      },
+
+      "content_scripts": [
+        {
+          "matches": ["https://crmeducacional.crm2.dynamics.com/*"],
+          "run_at": "document_end",
+          "all_frames": true,
+          "js": ["alteracoes.js"]
+        }
+      ],
+      "background": {
+        "service_worker": "background.js"
     }
+}

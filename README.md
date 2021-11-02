@@ -1,4 +1,4 @@
-#CRM PLUS
+# CRM PLUS
 
 Extensão para navegador criada com intuito de auxiliar no trabalho diário dentro do CRM no atendimento de ocorrências. 
 
@@ -11,6 +11,7 @@ Colore as ocorrências conforme a situação de atendimento:
 - **Roxo** = Aguardando Solução
 
 <br>
+
 **Planos de desenvolvimento:**
 
 - Personalização das cores
@@ -20,6 +21,7 @@ Colore as ocorrências conforme a situação de atendimento:
 Encontrou algum bug? Favor reportar em: https://github.com/Tiagox42/CrmPlus/issues
 
 **Atenção: **
+
 Extensão para navegadores baseados em Chromium (Google Chrome, Edge e etc).
 **Exclusiva para funcionários, não vai funcionar para outros sistemas.**
 

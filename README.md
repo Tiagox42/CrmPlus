@@ -20,10 +20,11 @@ Colore as ocorrências conforme a situação de atendimento:
 
 Encontrou algum bug? Favor reportar em: https://github.com/Tiagox42/CrmPlus/issues
 
-**Atenção: **
+**Atenção:**
 
 Extensão para navegadores baseados em Chromium (Google Chrome, Edge e etc).
 **Exclusiva para funcionários, não vai funcionar para outros sistemas.**
 
 <br>
+
 *Se possivel marcar esse projeto com estrela para tornar meu perfil popular :tw-1f64f:*

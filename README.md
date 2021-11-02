@@ -27,4 +27,4 @@ Extensão para navegadores baseados em Chromium (Google Chrome, Edge e etc).
 
 <br>
 
-*Se possivel marcar esse projeto com estrela para tornar meu perfil popular :tw-1f64f:*
+*Se possivel marcar esse projeto com estrela para tornar meu perfil popular, obrigado* ![](https://i.imgur.com/C9XaxWp.png)

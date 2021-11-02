@@ -14,7 +14,7 @@ Colore as ocorrências conforme a situação de atendimento:
 
 **Planos de desenvolvimento:**
 
-- Personalização das cores
+- Personalização de cores
 - Marcar ocorrência individualmente
 <br>
 

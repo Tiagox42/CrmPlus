@@ -8,7 +8,6 @@ function start() {
     let colorT = '#ffc64a';
     let colorSafe = '#4afff9';
     let colorS = '#bd10e8';
-    
 
     let contagem = document.querySelector("#entity_control-pcf_grid_control_container > div > div.pcf-grid.root-120 > div > div > div > div > div.ag-root-wrapper-body.ag-layout-normal.ag-focus-managed > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-body-viewport.ag-layout-normal.ag-row-no-animation > div.ag-center-cols-clipper > div > div").children;
     
@@ -46,5 +45,9 @@ function start() {
         }
 
      }
+     var button = document.querySelector("#sitemap-entity-New_ocorrencia > div > div > div.pa-bi.pa-e.pa-o.pa-cj.flexbox");
+     button.onclick = function() {
+        start();
+    };
     }, 2000);   
 }

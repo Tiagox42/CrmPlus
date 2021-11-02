@@ -1,4 +1,4 @@
-let changeColor = document.getElementById("bugger");
+let changeColor = document.getElementById("startBugger");
 
 changeColor.addEventListener("click", async () => {
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -58,5 +58,5 @@ function executarBugger() {
          button.onclick = function() {
             start();
         };
-        }, 1000);   
+        }, 1500);   
 }

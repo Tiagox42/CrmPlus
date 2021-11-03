@@ -33,14 +33,21 @@ body {
     margin-top: 20px;
 }
 
+.clear {
+    clear: both;
+}
+
 button {
     background-color: tomato;
     border: none;
     color: white;
+    width: 100px;
     font-size: 10px;
     padding: 4.5px;
     float: left;
     margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 button:hover {

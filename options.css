@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    background-color: #2b2b2b;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+}
+
+.contentColor{
+    float: left;
+    margin-left: 15%;
+}
+
+.contentMarc {
+    float: right;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.title span {
+    font-size: 20px;
+}
+
+.colorTitle {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.colorSelect {
+    margin-top: 30px;
+}
+
+.colorInput {
+    width: 30px;
+    height: 35px;
+    background-color: transparent;
+    margin-right: 10px;
+    border: none;
+    padding: 0px;
+}
+
+.textColor {
+    vertical-align: 5px;
+    font-size: 18px;
+    color: white;
+    display: inline;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: -45px;
+    color: indianred;
+}
+
+.marcarO {
+    margin-top: 40px;
+}
+
+.marcarO span {
+    font-size: 30px;
+    color: goldenrod;
+    font-weight: bold;
+    vertical-align: -5px;
+}
+
+.inputMarcar {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 500px;
+    font-weight: bold;
+}
+
+.saver {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+.saver:hover {
+    background-color: rgb(245, 60, 27);
+}
+
+.center{
+    text-align: center;
+}

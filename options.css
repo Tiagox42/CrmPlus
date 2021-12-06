@@ -111,3 +111,21 @@ h2 {
 .center{
     text-align: center;
 }
+
+.padrao {
+    vertical-align: 3px;
+    color: rgb(61, 61, 61);
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(134, 134, 134);
+    border: none;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.padrao:hover {
+    background-color: rgb(212, 212, 212);
+}

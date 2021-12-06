@@ -1,14 +1,13 @@
 body {
-    background-color: brown;
     width: 500px;
 }
 
 h1 {
-	color: gold;
+    color: gold;
 }
 
 span {
-	color: cyan;
+    color: cyan;
 }
 
 .description {
@@ -20,14 +19,20 @@ span {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
 body {
-    background-color: white;
-    color: black;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
 }
 
 .cat {
     float: right;
-    width: 120px;
+    width: 180px;
     height: 120px;
     margin-right: 20px;
     margin-top: 20px;
@@ -44,7 +49,6 @@ button {
     width: 100px;
     font-size: 10px;
     padding: 4.5px;
-    float: left;
     margin-right: 10px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -55,61 +59,137 @@ button:hover {
 }
 
 .opcoes {
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  
-  -webkit-animation: rainbow 10s ease infinite;
-  -z-animation: rainbow 10s ease infinite;
-  -o-animation: rainbow 10s ease infinite;
-    animation: rainbow 10s ease infinite;}
-  
-  @-webkit-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-moz-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-o-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @keyframes rainbow { 
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-
-  .opcoes:hover {
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
-    
+
+    -webkit-animation: rainbow 10s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+.opcoes:hover {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+
     -webkit-animation: rainbow 0.3s ease infinite;
     -z-animation: rainbow 0.3s ease infinite;
     -o-animation: rainbow 0.3s ease infinite;
-      animation: rainbow 0.3s ease infinite;}
+    animation: rainbow 0.3s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+.funcional button{
     
-    @-webkit-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-moz-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-o-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @keyframes rainbow { 
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
+}

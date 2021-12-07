@@ -71,12 +71,9 @@ chrome.storage.sync.get([
 
                 }
                 var button = document.querySelector("#sitemap-entity-New_ocorrencia > div > div > div.pa-bi.pa-e.pa-o.pa-cj.flexbox");
-                var button2 = document.querySelector("#incident\\|NoRelationship\\|HomePageGrid\\|Mscrm\\.Modern\\.refreshCommand30-button");
-                button.onclick = function () {
-                    start();
-                };
-                button2.onclick = function () {
-                    start();
+                var button2 = document.querySelector("#incident\\|NoRelationship\\|HomePageGrid\\|Mscrm\\.Modern\\.refreshCommand30-button"); button.onclick = function () {
+                    button.onclick = start();
+                    button2.onclick = start();
                 };
                 console.log('[CRM-PLUS / Core] Botões aplicados');
             }, 2000);

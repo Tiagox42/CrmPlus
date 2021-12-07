@@ -20,15 +20,15 @@ chrome.storage.sync.get([
     let colorBlack = '#262626';
 
     window.addEventListener('load', (event) => {
-        console.log('[CRM-PLUS] Toda a página foi carregada!');
+        console.log('[CRM-PLUS / Core] Toda a página foi carregada!');
         start()
-        console.log('[CRM-PLUS] Start iniciado');
+        console.log('[CRM-PLUS / Core] Start iniciado');
 
         function start() {
             setTimeout(() => {
 
                 let contagem = document.querySelector("#entity_control-pcf_grid_control_container > div > div.pcf-grid.root-142 > div > div > div > div > div.ag-root-wrapper-body.ag-layout-normal.ag-focus-managed > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-body-viewport.ag-layout-normal.ag-row-no-animation > div.ag-center-cols-clipper > div > div").children;
-                console.log("[CRM-PLUS] ######## A contagem é " + contagem.length + " ########");
+                console.log("[CRM-PLUS / Core] ######## A contagem é " + contagem.length + " ########");
 
                 for (var i = 1; i < contagem.length + 1; i++) {
 
@@ -78,10 +78,10 @@ chrome.storage.sync.get([
                 button2.onclick = function () {
                     start();
                 };
-                console.log('[CRM-PLUS] Botões aplicados');
+                console.log('[CRM-PLUS / Core] Botões aplicados');
             }, 2000);
 
-            console.log('[CRM-PLUS] Atenção');
+            console.log('[CRM-PLUS / Core] #######');
         }
     });
 
